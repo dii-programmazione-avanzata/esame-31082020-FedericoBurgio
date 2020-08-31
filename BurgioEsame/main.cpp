@@ -9,12 +9,12 @@ int main() {
     std::cout << "\nHello, World!" << std::endl;
 a.printMe();
     Popolazione ab(new Individuo*[2]{&a,&b},1,2,3, nullptr);
-    Individuo **P = new Individuo*[3]{&a, &b};
+    auto **P = new Individuo*[3]{&a, &b};
     cout<<"p0\n";
 P[0]->printMe();
 cout<<"p1\n";
 P[1]->printMe();
   ab.Crossover(&a, &b).printMe();
-
+cout<<22222;
     return 0;
 };

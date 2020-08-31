@@ -23,8 +23,7 @@ Individuo Popolazione::Crossover(Individuo *donor, Individuo *reciever) {
     }
     for (int k = cutEnd; k < newLength; ++k) {
         val[k]=reciever->getValues()[k];
-    }    donor->~Individuo();
-    reciever->~Individuo();
+    }
     return Individuo(newLength, val);
 
 

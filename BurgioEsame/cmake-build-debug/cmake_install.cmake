@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Federico/Desktop/Programmazione/BurgioEsame
+# Install script for directory: C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Federico/Desktop/Programmazione/BurgioEsame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

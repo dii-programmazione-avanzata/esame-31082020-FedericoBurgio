@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/FunctionBase.h
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/include/FunctionBase.h
 
-C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/Individuo.h
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/include/Individuo.h
 iostream
 -
 cstdlib
@@ -16,13 +16,21 @@ cstdlib
 time.h
 -
 
-C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/Popolazione.h
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/include/Popolazione.h
 Individuo.h
-C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/Individuo.h
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/include/Individuo.h
 FunctionBase.h
-C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/FunctionBase.h
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/include/FunctionBase.h
 
-C:/Users/Federico/Desktop/Programmazione/BurgioEsame/src/Popolazione.cpp
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/main.cpp
+iostream
+-
+include/Individuo.h
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/include/Individuo.h
+include/Popolazione.h
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/include/Popolazione.h
+
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/src/Popolazione.cpp
 ../include/Popolazione.h
-C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/Popolazione.h
+C:/Users/Federico/Desktop/esame-31082020-FedericoBurgio/BurgioEsame/include/Popolazione.h
 

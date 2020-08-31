@@ -13,10 +13,25 @@ class Popolazione {
     FunctionBase *function;
     int N, M, gen;
 public:
-    Popolazione(Individuo **popolazione, int n, int m, int gen,FunctionBase *function);
+    Popolazione(Individuo **popolazione, int n, int m, int gen, FunctionBase *function);
 
 
     Individuo Crossover(Individuo *donor, Individuo *reciever);
+
+    void startSim() {
+        int *scores = new int[N];
+        scores=setScores();
+    };
+
+    int *setScores() {
+        int *scores = new int[N];
+        for (int i = 0; i < N; ++i) {
+            function->setInputs(popolazione[i]->getValues());
+            scores[i] = function->compute();
+        }
+    }
+
+    
 };
 
 #endif //BURGIOESAME_POPOLAZIONE_H
