@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/FunctionBase.h
+
+C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/Individuo.h
+iostream
+-
+cstdlib
+-
+time.h
+-
+
+C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/Popolazione.h
+Individuo.h
+C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/Individuo.h
+FunctionBase.h
+C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/FunctionBase.h
+
+C:/Users/Federico/Desktop/Programmazione/BurgioEsame/src/Popolazione.cpp
+../include/Popolazione.h
+C:/Users/Federico/Desktop/Programmazione/BurgioEsame/include/Popolazione.h
+
